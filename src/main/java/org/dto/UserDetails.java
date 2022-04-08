@@ -2,7 +2,7 @@ package org.dto;
 
 import javax.persistence.*;
 
-/*Use the object address twice...A straight forward but large method*/
+/*Use the object address twice in an entity...A straight forward but large method*/
 /*We can also assign a name property in Entity...If we do that hibernate will make table with that name*/
 @Entity
 public class UserDetails {
