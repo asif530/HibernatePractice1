@@ -23,7 +23,7 @@ public class UserDetails {
     * AttributeOverride -> overrides the default field...In this case "rasta" and city..
     * */
 
-    /* If we wnt we can use @Id @GeneratedValue(strategy=GenerationType.AUTO) here above get Method... All the annotations are*/
+    /* If we want we can use @Id @GeneratedValue(strategy=GenerationType.AUTO) here above get Method... All the annotations are*/
     public int getUserId() {
         return userId;
     }
